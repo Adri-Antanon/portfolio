@@ -14,9 +14,6 @@ const HomePage = () => {
         <p className="h-sub-text">
           A front-end developer, passionated about web development, technology and internet.
         </p>
-        <p className="h-sub-text">
-          My goal is develop my career by building simple, clean and well crafted software using the latest technologies.
-        </p>
         <div className="icons">
           <a href="https://www.linkedin.com/in/adrianantanyon" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
