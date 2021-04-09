@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../assets/img/about.jpg';
+import about from '../assets/img/avatar.jpg';
 
 const ImageSection = () => {
 
@@ -28,7 +28,7 @@ const ImageSection = () => {
             <p>: Spanish, English, Catalan</p>
           </div>
         </div>
-        <button className="btn">Download Cv</button>
+        <button className="btn" >Download Cv</button>
       </div>
     </div>
   );
