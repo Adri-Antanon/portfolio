@@ -1,0 +1,14 @@
+@import './assets/styles/variables';
+@import './assets/styles/layout';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: $font-color;
+    font-family: $font-family;
+    font-size: 0.2rem;
+}
