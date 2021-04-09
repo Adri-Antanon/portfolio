@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { faGithub, faGitlab, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faGitlab, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const HomePage = () => {
