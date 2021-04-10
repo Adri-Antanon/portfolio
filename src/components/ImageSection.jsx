@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+
 import about from '../assets/img/avatar.jpg';
 
 const ImageSection = () => {
@@ -18,17 +21,19 @@ const ImageSection = () => {
           </p>
         <div className="about-details">
           <div className="left-section">
-            <p>Full Name</p>
-            <p>Nationality</p>
-            <p>Languages</p>
+            <p>Location: </p>
+            <p>Languages: </p>
           </div>
           <div className="right-section">
-            <p>: Adrián Antañón Orozco</p>
-            <p>: Spanish</p>
-            <p>: Spanish, English, Catalan</p>
+            <p>Barcelona</p>
+            <p>Spanish, English, Catalan</p>
           </div>
         </div>
-        <button className="btn" >Download Cv</button>
+        <button className="btn" >
+          <Link className="link" rel="noopener noreferrer" to="ResumeAdrianAntayon.pdf" target="_blank" download >
+            Download CV
+        </Link>
+        </button>
       </div>
     </div>
   );

@@ -15,13 +15,13 @@ const HomePage = () => {
           A front-end developer, passionated about web development, technology and internet.
         </p>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/adrianantanyon" className="icon-holder">
+          <a href="https://www.linkedin.com/in/adrianantanyon" rel="noopener noreferrer" target="_blank" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
           </a>
-          <a href="https://github.com/Adri-Antanon" className="icon-holder">
+          <a href="https://github.com/Adri-Antanon" rel="noopener noreferrer" target="_blank" className="icon-holder">
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
           </a>
-          <a href="https://gitlab.com/AdrianAntanon" className="icon-holder">
+          <a href="https://gitlab.com/AdrianAntanon" rel="noopener noreferrer" target="_blank" className="icon-holder">
             <FontAwesomeIcon icon={faGitlab} className="icon yt" />
           </a>
         </div>
