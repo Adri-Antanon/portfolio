@@ -48,7 +48,7 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 10px;
-                        background-color: $main-blue-color;
+                        background-color: $main-color;
                         color: white;
                         &:not(:last-child) {
                             margin-right: 2rem;
@@ -72,7 +72,7 @@
             color: white;
             transition: all 0.3s ease-in-out;
             &:hover {
-                color: $main-blue-color;
+                color: $main-color;
                 cursor: context-menu;
             }
         }

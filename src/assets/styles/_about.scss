@@ -42,7 +42,7 @@
 
 .btn {
     padding: 1rem 2rem;
-    background-color: $main-blue-color;
+    background-color: $main-color;
     outline: none;
     border: none;
     font-family: inherit;
@@ -96,13 +96,13 @@
         margin-right: 1rem;
     }
     &:hover {
-        background-color: $main-blue-color;
+        background-color: $main-color;
     }
     &:active {
-        background-color: $main-blue-color;
+        background-color: $main-color;
     }
     &:focus {
-        background-color: $main-blue-color;
+        background-color: $main-color;
     }
 }
 
