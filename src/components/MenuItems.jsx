@@ -6,21 +6,20 @@ const MenuItems = (props) => {
     <div className="projects">
       {
         menuItem.map((item) => {
-          console.log(item.link1);
           return <div className="project" key={item.id}>
             <div className="image-data">
               <img src={item.image} alt={item.title} />
               <ul className="hover-items">
                 <li>
-                  <a href={item.link1} rel="noopener noreferrer" target="_blank">{item.icon1}</a>
-                  <a href={item.link2}>{item.icon2}</a>
+                  <a href={item.web} rel="noopener noreferrer" target="_blank">{item.icon1}</a>
+                  <a href={item.repository} rel="noopener noreferrer" target="_blank">{item.icon2}</a>
                 </li>
               </ul>
             </div>
             <h5>
               {item.title}
             </h5>
-            <p>Short description</p>
+            <p>{item.description}</p>
           </div>
         })
       }
