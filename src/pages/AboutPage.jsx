@@ -31,6 +31,7 @@ const AboutPage = () => {
         <SkillsSection skill={'PHP'} progress={'30%'} width={'30%'} />
         <SkillsSection skill={'SQL'} progress={'60%'} width={'60%'} />
         <SkillsSection skill={'NoSQL'} progress={'40%'} width={'40%'} />
+        <SkillsSection skill={'Git'} progress={'90%'} width={'90%'} />
       </div>
       <Title title={'Soft Skills'} span={'Soft'} />
       <div className="SoftSkillsContainer">

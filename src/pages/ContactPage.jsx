@@ -31,11 +31,13 @@ const ContactPage = () => {
         <div className="contact-sect">
           <ContactItem
             icon={phone}
+            iconAlt={"phone icon"}
             title={'Telephone'}
             text={'+34 654 497 613'}
           />
           <ContactItem
             icon={email}
+            iconAlt={"email icon"}
             title={'Email'}
             text={'adrianantanon@gmail.com'}
           />

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-import about from '../assets/img/avatar.jpg';
+import about from '../assets/img/adri.JPG';
 
 const ImageSection = () => {
 
