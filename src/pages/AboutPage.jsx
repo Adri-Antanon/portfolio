@@ -22,6 +22,7 @@ const AboutPage = () => {
       <div className="SkillsContainer">
         <SkillsSection skill={'JavaScript'} progress={'70%'} width={'70%'} />
         <SkillsSection skill={'React Js'} progress={'65%'} width={'65%'} />
+        <SkillsSection skill={'React Native'} progress={'55%'} width={'55%'} />
         <SkillsSection skill={'TypeScript'} progress={'50%'} width={'50%'} />
         <SkillsSection skill={'Angular 2+'} progress={'40%'} width={'40%'} />
         <SkillsSection skill={'HTML5'} progress={'80%'} width={'80%'} />

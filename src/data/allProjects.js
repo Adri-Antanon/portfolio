@@ -1,18 +1,18 @@
-import port4 from '../assets/img/portfolio/port3.jpg';
+import shopReactNative from '../assets/img/projects/shopReactNative.jpg';
 import cinemaITB from '../assets/img/projects/cinemaITB.PNG';
 import rickAndMorty from '../assets/img/projects/rickAndMorty.PNG';
 
 const webDevProjects = [
   {
     id: 1,
-    category: 'HTML5 / CSS3 / JS',
-    web: 'https://www.youtube.com/',
-    repository: 'www.github.com',
-    icon1: 'G',
-    icon2: 'Y',
-    image: port4,
-    title: 'Vanilla Javascript Website',
-    description: ''
+    category: 'React Native',
+    web: 'https://expo.io/@adriantanon/projects/tienda-online',
+    repository: 'https://gitlab.com/AdrianAntanon/react-native-the-shop-app',
+    icon1: 'Expo',
+    icon2: 'Repo',
+    image: shopReactNative,
+    title: 'Simple Online Store',
+    description: 'Shop created using React Native, Expo, authentication implementation, different hooks, Redux Thunk and validation inputs'
   },
   {
     id: 2,
