@@ -6,7 +6,7 @@ const webDevProjects = [
   {
     id: 1,
     category: 'React Native',
-    web: 'https://expo.io/@adriantanon/projects/tienda-online',
+    web: 'https://expo.io/@adriantanon/online-store',
     repository: 'https://gitlab.com/AdrianAntanon/react-native-the-shop-app',
     icon1: 'Expo',
     icon2: 'Repo',

@@ -14,8 +14,8 @@ const ContactPage = () => {
     <div>
       <div className="title">
         <Title
-          title={'About Me'}
-          span={'About Me'}
+          title={'Contact'}
+          span={'Contact'}
         />
       </div>
       <div className="ContactPage">
