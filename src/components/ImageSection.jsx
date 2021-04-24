@@ -30,7 +30,7 @@ const ImageSection = () => {
           </div>
         </div>
         <button className="btn" >
-          <Link className="link" rel="noopener noreferrer" to="ResumeAdrianAntanyon.pdf" target="_blank" download >
+          <Link className="link" rel="noopener noreferrer" to="Resume-Adrian-Antanyon.pdf" target="_blank" download >
             Download CV
         </Link>
         </button>
