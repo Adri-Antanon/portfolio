@@ -12,6 +12,10 @@ export const HARD_SKILLS = [
     src: "hardSkills/nextJS.png",
   },
   {
+    name: "Redux",
+    src: "hardSkills/redux.svg",
+  },
+  {
     name: "React Native",
     src: "hardSkills/react.png",
   },
