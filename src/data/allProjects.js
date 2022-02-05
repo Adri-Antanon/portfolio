@@ -55,19 +55,6 @@ const webDevProjects = [
       "Different food recipes are shown, how to prepare them, separated by categories and you can save them in favorites.",
   },
   {
-    id: 5,
-    category: "React Js",
-    web: "https://adri-antanon.github.io/RickAndMortyAPIReact/",
-    repository:
-      "https://github.com/Adri-Antanon/RickAndMortyAPIReact/tree/master",
-    icon1: "Web",
-    icon2: "Repo",
-    image: rickAndMorty,
-    title: "Rick and Morty characters",
-    description:
-      "Consuming a Rick and Morty REST API using React and its different React Hooks to display characters",
-  },
-  {
     id: 6,
     category: "HTML5 / CSS3 / JS",
     web: "https://adrianantanon.gitlab.io/proyecto-static-web-uf2-m04/index.html",
