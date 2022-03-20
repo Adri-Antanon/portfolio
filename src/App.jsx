@@ -13,7 +13,7 @@ function App() {
       <ScrollToTop
         smooth
         style={{ backgroundColor: theme === 'light' ? '#fcfcfc' : '#080819' }}
-        color={theme ? '#1e63b8' : '#4d5499'}
+        color={theme === 'light' ? '#1e63b8' : '#4d5499'}
       />
       <Header />
       <main>
