@@ -1,6 +1,16 @@
 const projectsInfo = [
   {
-    id: 1,
+    id: 'portfolio-template',
+    demo: 'https://adri-antanon.github.io/i18n-portfolio/',
+    source: 'https://github.com/Adri-Antanon/i18n-portfolio',
+    stack: ['React', 'CSS Modules', 'Context'],
+    image: 'img/projects/portfolio-template.png',
+    title: 'Portafolio template',
+    description:
+      'Una plantilla de portafolio público para mostrar todo tu trabajo y proyectos personales.',
+  },
+  {
+    id: 'blog',
     demo: 'https://adri-blog.vercel.app/',
     source: 'https://github.com/Adri-Antanon/ReactAndNextJS',
     stack: ['React', 'CSS Modules', 'NextJS'],
@@ -10,7 +20,7 @@ const projectsInfo = [
       'Blog sobre desarrollo web con css module, rutas api, SSR, react-markdown y más. ',
   },
   {
-    id: 2,
+    id: 'simple-online-store',
     demo: 'https://expo.io/@adriantanon/online-store',
     source: 'https://gitlab.com/AdrianAntanon/react-native-the-shop-app',
     stack: ['Expo', 'React Native', 'Redux'],
@@ -20,7 +30,7 @@ const projectsInfo = [
       'Tienda creada usando React Native, Expo, autenticación, diferentes hooks, Redux Thunk y validación de inputs',
   },
   {
-    id: 3,
+    id: 'guess-a-number-game',
     demo: 'https://expo.io/@adriantanon/projects/guess-number',
     source: 'https://gitlab.com/AdrianAntanon/guess-a-number-app',
     stack: ['Expo', 'React Native'],
@@ -30,7 +40,7 @@ const projectsInfo = [
       'Introduces un número entre 1 y 99 y comienza el juego, la CPU debe adivinar el número',
   },
   {
-    id: 4,
+    id: 'show-your-meals',
     demo: 'https://expo.io/@adriantanon/projects/show-meals',
     source: 'https://gitlab.com/AdrianAntanon/react-native-the-meals-app',
     stack: ['Expo', 'React Native'],
@@ -40,7 +50,7 @@ const projectsInfo = [
       'Se muestran diferentes recetas de comida, cómo prepararlas, separadas por categorías y puedes guardarlas en favoritos.',
   },
   {
-    id: 5,
+    id: 'cinema-ITB',
     demo: 'https://adrianantanon.gitlab.io/proyecto-static-web-uf2-m04/index.html',
     source: 'https://gitlab.com/AdrianAntanon/proyecto-static-web-uf2-m04',
     stack: ['HTML5', 'CSS', 'JavaScript'],
