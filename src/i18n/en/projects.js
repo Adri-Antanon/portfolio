@@ -1,5 +1,14 @@
 const projectsInfo = [
   {
+    id: 'Pokémon Pokédex',
+    demo: 'https://pokemon-app-snowy-one.vercel.app/',
+    source: 'https://github.com/Adri-Antanon/pokemon-app',
+    stack: ['NextJS', 'TypeScript'],
+    image: 'img/projects/pokemon-pokedex.png',
+    title: 'Pokemon Pokedex App',
+    description: `First 251 Pokemon cards, you can save them and see some stats on them.`,
+  },
+  {
     id: 'portfolio-template',
     demo: 'https://adri-antanon.github.io/i18n-portfolio/',
     source: 'https://github.com/Adri-Antanon/i18n-portfolio',
